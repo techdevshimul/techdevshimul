@@ -43,7 +43,7 @@ export default function Contact() {
       </div>
 
       <div className="flex justify-center items-center mt-20 gap-24 flex-wrap">
-        <div className="flex flex-col justify-center items-center w-full border p-10 rounded-xl">
+        <div className="flex flex-col justify-center items-center w-96 border p-10 rounded-xl">
           <Image
             src={profile}
             alt="profile"
@@ -56,7 +56,7 @@ export default function Contact() {
             ))}
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center w-full border p-10 rounded-xl gap-8">
+        <div className="flex flex-col justify-center items-center w-96 border p-10 rounded-xl gap-8">
           <h2 className="text-4xl text-center">Contact Via Email</h2>
           <div className="w-full">
             <label className="text-xl" htmlFor="full-name">
