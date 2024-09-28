@@ -1,5 +1,6 @@
 import Link from "next/link";
 import classes from "./project-card.module.css";
+import Image from "next/image";
 
 export default function ProjectCard({ project }: any) {
   // console.log(project);
@@ -14,11 +15,17 @@ export default function ProjectCard({ project }: any) {
   ));
 
   return (
-    <div className={classes.projectCard}>
-      <Link target="_blank" href={project.images[0].image}>
-        <img src={project.images[0].image} />
+    <div className={`max-w-lg relative overflow-hidden rounded-2xl grow group`}>
+      <Link target="_blank" href={project.images[0].image.src}>
+        <Image
+          src={project.images[0].image}
+          alt="project image"
+          className="w-full"
+        />
       </Link>
-      <div className={classes.cardBody}>
+      <div
+        className={`absolute bg-black p-5 ease-in-out duration-500 -bottom-3/4 opacity-0 transition-all group-hover:bottom-0 group-hover:opacity-100`}
+      >
         <h2>{project.title}</h2>
         <p>{project.desc}</p>
         <div className={classes.tech}>{tech}</div>

@@ -1,6 +1,9 @@
 // import Link from "next/link";
 import ProjectCard from "./project-card";
 import { Iceberg } from "next/font/google";
+import projectImage1 from "@/public/assets/images/project-images/0.jpg";
+import projectImage2 from "@/public/assets/images/project-images/1.webp";
+import projectImage3 from "@/public/assets/images/project-images/2.webp";
 
 const iceberg = Iceberg({ subsets: ["latin"], weight: "400" });
 
@@ -16,8 +19,8 @@ const project_data = [
       { id: 4, name: "Node.js" },
     ],
     images: [
-      { id: 0, image: "/assets/images/project-images/0.jpg" },
-      { id: 1, image: "/assets/images/project-images/1.webp" },
+      { id: 0, image: projectImage1 },
+      { id: 1, image: projectImage2 },
     ],
     links: [
       { id: 0, name: "GitHub", link: "https://github.link" },
@@ -35,8 +38,8 @@ const project_data = [
       { id: 4, name: "Node.js" },
     ],
     images: [
-      { id: 0, image: "/assets/images/project-images/2.webp" },
-      { id: 1, image: "/assets/images/project-images/3.jpg" },
+      { id: 0, image: projectImage2 },
+      { id: 1, image: projectImage3 },
     ],
     links: [
       { id: 0, name: "GitHub", link: "https://github.link" },
