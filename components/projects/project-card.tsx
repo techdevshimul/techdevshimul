@@ -1,10 +1,7 @@
 import Link from "next/link";
-// import classes from "./project-card.module.css";
 import Image from "next/image";
 
 export default function ProjectCard({ project }: any) {
-  // console.log(project);
-
   const tech = project.tech.map((tech: any) => (
     <p className="bg-yellow-500 text-black rounded-lg px-3 py-1" key={tech.id}>
       {tech.name}{" "}
@@ -19,7 +16,7 @@ export default function ProjectCard({ project }: any) {
       }`}
     >
       <Image src={link.linkImage} alt="link" className="w-6" />
-      <p className="border-white text-2xl"> {link.name} </p>
+      <p className="border-white text-xl"> {link.name} </p>
     </a>
   ));
 

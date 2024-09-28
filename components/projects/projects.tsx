@@ -113,9 +113,12 @@ const project_data = [
 
 export default function Projects() {
   return (
-    <div className="rounded-md mt-4 bg-white dark:bg-slate-800 text-black dark:text-white p-24">
+    <div
+      id="projects"
+      className="rounded-md mt-4 bg-white dark:bg-slate-800 text-black dark:text-white p-24"
+    >
       <div className="flex gap-4 items-center">
-        <h2 className={`${iceberg.className} text-nowrap text-4xl`}>
+        <h2 className={`${iceberg.className} text-nowrap text-5xl`}>
           Projects :
         </h2>
         <div className="bg-white h-[1px] w-full"></div>

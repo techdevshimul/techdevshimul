@@ -10,28 +10,28 @@ export default function MainHeader() {
         <div className="flex justify-between mx-10 py-4 items-center flex-wrap gap-4">
           <Link href="/">
             <div className="flex items-center gap-2">
-              <h1 className={`text-xl font-bold ${pacifico.className}`}>
+              <h1 className={`text-2xl font-bold ${pacifico.className}`}>
                 TechDevShimul
               </h1>
             </div>
           </Link>
           <ul className="flex flex-wrap flex-row justify-center gap-5">
             <li>
-              <Link href="#" className="font-bold">
+              <Link href="#about" className="font-bold">
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link href="#">SKILLS</Link>
+              <Link href="#skills">SKILLS</Link>
             </li>
             <li>
-              <Link href="#">PROJECTS</Link>
+              <Link href="#projects">PROJECTS</Link>
             </li>
             <li>
-              <Link href="#">EDUCATION</Link>
+              <Link href="#education">EDUCATION</Link>
             </li>
             <li>
-              <Link href="#">CONTACT</Link>
+              <Link href="#contact">CONTACT</Link>
             </li>
           </ul>
           <Link
