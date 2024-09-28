@@ -1,6 +1,5 @@
 import Link from "next/link";
 import photo from "@/public/assets/images/photo.jpg";
-// import Typewriter from "typewriter-effect";
 
 export default function WelcomeSection() {
   return (
@@ -9,27 +8,10 @@ export default function WelcomeSection() {
         <p className="text-xl text-gray-300">Hi, my name is</p>
         <h2 className="text-5xl font-bold">Shimul Hossain</h2>
 
-        {/* <Typewriter
-          onInit={(typewriter) => {
-            typewriter
-              .typeString("Hello World!")
-              .callFunction(() => {
-                console.log("String typed out!");
-              })
-              .pauseFor(2500)
-              .deleteAll()
-              .callFunction(() => {
-                console.log("All strings were deleted");
-              })
-              .start();
-          }}
-        /> */}
-
         <p className="text-2xl text-gray-300">- Full Stack Web Developer</p>
         <p className="text-xl text-gray-400">
-          I am Shimul Hossain. Being interested to explore technologies I found
-          web development as my passion. I am aspiring to bring that passion to
-          a full-time role.
+          Being interested to explore technologies I found web development as my
+          passion. I am aspiring to bring that passion to a full-time role.
         </p>
 
         <Link

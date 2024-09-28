@@ -1,7 +1,9 @@
+import Contact from "@/components/contact/contact";
+import Education from "@/components/education/education";
+import Footer from "@/components/footer/footer";
 import WelcomeSection from "@/components/home/welcome-section";
 import Projects from "@/components/projects/projects";
 import Skills from "@/components/skills/skills";
-import SocialLinks from "@/components/social-links/social-links";
 
 export default function Home() {
   return (
@@ -9,7 +11,9 @@ export default function Home() {
       <WelcomeSection />
       <Skills />
       <Projects />
-      <SocialLinks />
+      <Education />
+      <Contact />
+      <Footer />
     </main>
   );
 }

@@ -18,14 +18,14 @@ export default function ProjectCard({ project }: any) {
         link.name == "GitHub" ? "bg-gray-700 " : "bg-blue-700"
       }`}
     >
-      <Image src={link.linkImage} alt="link" className="w-5" />
-      <p className="border-white text-lg"> {link.name} </p>
+      <Image src={link.linkImage} alt="link" className="w-6" />
+      <p className="border-white text-2xl"> {link.name} </p>
     </a>
   ));
 
   return (
     <div
-      className={`max-w-lg relative overflow-hidden rounded-2xl grow transition-all duration-1000 group`}
+      className={`w-96 relative overflow-hidden rounded-2xl grow transition-all duration-1000 group`}
     >
       <Link
         target="_blank"
@@ -40,7 +40,7 @@ export default function ProjectCard({ project }: any) {
       </Link>
 
       <div
-        className={`absolute bg-black/90 p-5 ease-in-out duration-500 -bottom-3/4 opacity-0 transition-all group-hover:bottom-0 group-hover:opacity-100 rounded-t-lg`}
+        className={`absolute w-full bg-black/90 p-5 ease-in-out duration-500 -bottom-3/4 opacity-0 transition-all group-hover:bottom-0 group-hover:opacity-100 rounded-t-lg`}
       >
         <h2 className="text-3xl underline text-center pb-4">{project.title}</h2>
         <p className="text-gray-400">{project.desc}</p>
