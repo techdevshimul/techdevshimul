@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         <div
           id="sidebar"
-          className="absolute top-0 right-0 overflow-hidden transition-all duration-300 bg-slate-500 h-[15000px] w-[300px] z-10 p-8"
+          className="absolute top-0 right-0 overflow-hidden transition-all duration-300 bg-slate-500 w-0 h-0 p-0"
         >
           <div className="flex justify-between items-center gap-7">
             <Link href="/">

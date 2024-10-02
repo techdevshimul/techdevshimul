@@ -47,6 +47,8 @@ body {
 }
 
 .hidesidebar {
-  width: 0;
-  padding: 0;
+  height: 15000px;
+  width: 300px;
+  z-index: 10;
+  padding: 28px;
 }
