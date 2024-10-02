@@ -27,16 +27,18 @@ export default function Education() {
   return (
     <div
       id="education"
-      className="rounded-md mt-4 bg-white dark:bg-slate-800 text-black dark:text-white p-24"
+      className="rounded-md mt-4 bg-white dark:bg-slate-800 text-black dark:text-white p-4 sm:p-9 lg:p-24"
     >
-      <div className="flex gap-4 items-center">
-        <h2 className={`${iceberg.className} text-nowrap text-5xl`}>
+      <div className="flex gap-4 items-center justify-center sm:justify-normal">
+        <h2
+          className={`${iceberg.className} text-nowrap text-3xl sm:text-4xl lg:text-5xl underline sm:no-underline`}
+        >
           Education :
         </h2>
-        <div className="bg-white h-[1px] w-full"></div>
+        <div className="bg-white h-[1px] w-full hidden sm:block"></div>
       </div>
 
-      <div className="flex justify-between gap-7 mb-5 mt-20">
+      <div className="flex flex-col md:flex-row justify-between gap-7 mb-5 mt-10 sm:mt-20">
         {education_data.map((education) => (
           <EducationCard key={education.id} education={education} />
         ))}

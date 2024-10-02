@@ -33,17 +33,19 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="rounded-md mt-4 bg-white dark:bg-slate-800 text-black dark:text-white p-24"
+      className="rounded-md mt-4 bg-white dark:bg-slate-800 text-black dark:text-white p-4 sm:p-9 lg:p-24"
     >
-      <div className="flex gap-4 items-center">
-        <h2 className={`${iceberg.className} text-nowrap text-5xl`}>
+      <div className="flex gap-4 items-center justify-center sm:justify-normal">
+        <h2
+          className={`${iceberg.className} text-nowrap text-3xl sm:text-4xl lg:text-5xl underline sm:no-underline`}
+        >
           Contact :
         </h2>
-        <div className="bg-white h-[1px] w-full"></div>
+        <div className="bg-white h-[1px] w-full hidden sm:block"></div>
       </div>
 
-      <div className="flex justify-center items-center mt-20 gap-24 flex-wrap">
-        <div className="flex flex-col justify-center items-center w-96 border p-10 rounded-xl">
+      <div className="flex justify-center lg:justify-between xl:justify-center items-center mt-10 sm:mt-20 gap-10 lg:gap-4 xl:gap-24 flex-wrap">
+        <div className="flex flex-col justify-center items-center w-96 border p-5 sm:p-10 rounded-xl">
           <Image
             src={profile}
             alt="profile"
@@ -56,8 +58,10 @@ export default function Contact() {
             ))}
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center w-96 border p-10 rounded-xl gap-8">
-          <h2 className="text-4xl text-center">Contact Via Email</h2>
+        <div className="flex flex-col justify-center items-center w-96 border p-5 sm:p-10 rounded-xl gap-4 sm:gap-8">
+          <h2 className="text-2xl sm:text-4xl text-center underline sm:no-underline">
+            Contact Via Email
+          </h2>
           <div className="w-full">
             <label className="text-xl" htmlFor="full-name">
               Full Name

@@ -7,6 +7,8 @@ import projectImage3 from "@/public/assets/images/project-images/2.webp";
 import gitHub from "@/public/assets/images/logos/GitHub.png";
 import url from "@/public/assets/images/logos/url.png";
 
+import { FaLink } from "react-icons/fa";
+
 const iceberg = Iceberg({ subsets: ["latin"], weight: "400" });
 
 const project_data = [
@@ -69,7 +71,6 @@ const project_data = [
       { id: 4, name: "Node.js" },
       { id: 5, name: "Node.js" },
       { id: 6, name: "Node.js" },
-      { id: 7, name: "Node.js" },
     ],
     images: [
       { id: 0, image: projectImage2 },
@@ -115,16 +116,18 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="rounded-md mt-4 bg-white dark:bg-slate-800 text-black dark:text-white p-24"
+      className="rounded-md mt-4 bg-white dark:bg-slate-800 text-black dark:text-white p-4 sm:p-9 lg:p-24"
     >
-      <div className="flex gap-4 items-center">
-        <h2 className={`${iceberg.className} text-nowrap text-5xl`}>
+      <div className="flex gap-4 items-center justify-center sm:justify-normal">
+        <h2
+          className={`${iceberg.className} text-nowrap text-3xl sm:text-4xl lg:text-5xl underline sm:no-underline`}
+        >
           Projects :
         </h2>
-        <div className="bg-white h-[1px] w-full"></div>
+        <div className="bg-white h-[1px] w-full hidden sm:block"></div>
       </div>
 
-      <div className="flex justify-center flex-wrap gap-7 mb-5 mt-20">
+      <div className="flex justify-center flex-wrap gap-7 mb-5 mt-10 sm:mt-20">
         {project_data.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
