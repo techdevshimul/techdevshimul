@@ -8,7 +8,7 @@ const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 export default function SideBarClose() {
   return (
     <div className="relative">
-      <IoMdCloseCircle className="lg:hidden size-10" onClick={toggleSideBar} />
+      <IoMdCloseCircle className="size-10" onClick={toggleSideBar} />
     </div>
   );
 }
