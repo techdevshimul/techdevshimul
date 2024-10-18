@@ -1,13 +1,12 @@
 // import Link from "next/link";
 import ProjectCard from "./project-card";
 import { Iceberg } from "next/font/google";
-import projectImage1 from "@/public/assets/images/project-images/0.jpg";
-import projectImage2 from "@/public/assets/images/project-images/1.webp";
-import projectImage3 from "@/public/assets/images/project-images/2.webp";
+import projectImage1 from "@/public/assets/images/project-images/Ecom.webp";
+import projectImage2 from "@/public/assets/images/project-images/Burger.webp";
+import projectImage3 from "@/public/assets/images/project-images/Hotel.webp";
+import projectImage4 from "@/public/assets/images/project-images/Photo.webp";
 import gitHub from "@/public/assets/images/logos/GitHub.png";
 import url from "@/public/assets/images/logos/url.png";
-
-import { FaLink } from "react-icons/fa";
 
 const iceberg = Iceberg({ subsets: ["latin"], weight: "400" });
 
@@ -15,23 +14,26 @@ const project_data = [
   {
     id: 0,
     title: "E-commerce Project",
-    desc: "Built With MERN Stack. Built With MERN Stack. Built With MERN Stack. Built With MERN Stack.",
+    desc: "A full-stack e-commerce project built with the MERN stack, featuring product listings, user authentication, and a shopping cart.",
     tech: [
       { id: 0, name: "MongoDB" },
       { id: 1, name: "Express.js" },
       { id: 2, name: "React.js" },
       { id: 4, name: "Node.js" },
+      { id: 5, name: "Vercel" },
     ],
-    images: [
-      { id: 0, image: projectImage1 },
-      { id: 1, image: projectImage2 },
-    ],
+    images: [{ id: 0, image: projectImage1 }],
     links: [
-      { id: 0, name: "GitHub", link: "https://github.link", linkImage: gitHub },
+      {
+        id: 0,
+        name: "GitHub",
+        link: "https://github.com/shimultechtips/ecom-frontend",
+        linkImage: gitHub,
+      },
       {
         id: 1,
         name: "Live Site",
-        link: "https://live-website.link",
+        link: "https://ecom-frontend-steel.vercel.app/",
         linkImage: url,
       },
     ],
@@ -39,73 +41,80 @@ const project_data = [
   {
     id: 1,
     title: "Burger Builder Project",
-    desc: "Built With MERN Stack. Built With MERN Stack. Built With MERN Stack. Built With MERN Stack.",
+    desc: "A MERN stack burger builder project featuring customizable ingredient options, dynamic pricing, and real-time order management.",
     tech: [
       { id: 0, name: "MongoDB" },
       { id: 1, name: "Express.js" },
       { id: 2, name: "React.js" },
       { id: 4, name: "Node.js" },
+      { id: 5, name: "Vercel" },
     ],
-    images: [
-      { id: 0, image: projectImage2 },
-      { id: 1, image: projectImage3 },
-    ],
+    images: [{ id: 0, image: projectImage2 }],
     links: [
-      { id: 0, name: "GitHub", link: "https://github.link", linkImage: gitHub },
+      {
+        id: 0,
+        name: "GitHub",
+        link: "https://github.com/shimultechtips/burger-builder",
+        linkImage: gitHub,
+      },
       {
         id: 1,
         name: "Live Site",
-        link: "https://live-website.link",
+        link: "https://burger-builder-five-livid.vercel.app/",
         linkImage: url,
       },
     ],
   },
   {
     id: 2,
-    title: "Burger Builder Project",
-    desc: "Built With MERN Stack. Built With MERN Stack. Built With MERN Stack. Built With MERN Stack. Built With MERN Stack. Built With MERN Stack. Built With MERN Stack. Built With MERN Stack.",
+    title: "Hotel Booking Project",
+    desc: "A MERN stack hotel booking project offering room listings, booking functionality, and user authentication for seamless reservations.",
     tech: [
       { id: 0, name: "MongoDB" },
       { id: 1, name: "Express.js" },
       { id: 2, name: "React.js" },
       { id: 4, name: "Node.js" },
-      { id: 5, name: "Node.js" },
-      { id: 6, name: "Node.js" },
+      { id: 5, name: "Firebase" },
     ],
-    images: [
-      { id: 0, image: projectImage2 },
-      { id: 1, image: projectImage3 },
-    ],
+    images: [{ id: 1, image: projectImage3 }],
     links: [
-      { id: 0, name: "GitHub", link: "https://github.link", linkImage: gitHub },
+      {
+        id: 0,
+        name: "GitHub",
+        link: "https://github.com/shimultechtips/hotel-booking-assignment",
+        linkImage: gitHub,
+      },
       {
         id: 1,
         name: "Live Site",
-        link: "https://live-website.link",
+        link: "https://shimuls-hotel-booking.web.app/",
         linkImage: url,
       },
     ],
   },
   {
     id: 3,
-    title: "Burger Builder Project",
-    desc: "Built With MERN Stack. Built With MERN Stack. Built With MERN Stack. Built With MERN Stack.",
+    title: "Photo Gallery Project",
+    desc: "A MERN stack photo gallery project that has a visually appealing layout. It features user authentication and options for commenting photos.",
     tech: [
       { id: 0, name: "MongoDB" },
       { id: 1, name: "Express.js" },
       { id: 2, name: "React.js" },
       { id: 4, name: "Node.js" },
+      { id: 5, name: "Firebase" },
     ],
-    images: [
-      { id: 0, image: projectImage2 },
-      { id: 1, image: projectImage3 },
-    ],
+    images: [{ id: 0, image: projectImage4 }],
     links: [
-      { id: 0, name: "GitHub", link: "https://github.link", linkImage: gitHub },
+      {
+        id: 0,
+        name: "GitHub",
+        link: "https://github.com/shimultechtips/photo-gallery-assignment",
+        linkImage: gitHub,
+      },
       {
         id: 1,
         name: "Live Site",
-        link: "https://live-website.link",
+        link: "https://shimuls-photo-gallary.web.app/",
         linkImage: url,
       },
     ],
