@@ -72,7 +72,8 @@ export default function MainHeader() {
 
           <Link
             className="hidden lg:block px-2 py-1 outline outline-5 rounded-md"
-            href="/resume"
+            href="https://drive.google.com/file/d/16UMQwvsw1f4rAsPb6haZHoetDX222oIv/view?usp=sharing"
+            target="_blank"
           >
             Resume
           </Link>

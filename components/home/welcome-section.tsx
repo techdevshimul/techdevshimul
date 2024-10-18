@@ -22,7 +22,8 @@ export default function WelcomeSection() {
 
         <Link
           className="my-3 p-1 outline outline-5 rounded-md text-center w-52"
-          href="/resume"
+          href="https://drive.google.com/file/d/16UMQwvsw1f4rAsPb6haZHoetDX222oIv/view?usp=sharing"
+          target="_blank"
         >
           Download my resume
         </Link>
