@@ -19,10 +19,10 @@ I am a Junior Full-stack developer with proven technical, organizational, and co
 
 - 🌱 I'm currently learning:
 
-  - a. [Typescript](https://www.typescriptlang.org/)
-  - b. [Next.js](https://nextjs.org/)
-  - c. [NextUI](https://nextui.org/)
-  - d. [PostgreSQL](https://www.postgresql.org/)
+  - [Typescript](https://www.typescriptlang.org/)
+  - [Next.js](https://nextjs.org/)
+  - [NextUI](https://nextui.org/)
+  - [PostgreSQL](https://www.postgresql.org/)
 
 - 👯 Connect with me on [LinkedIn](https://www.linkedin.com/in/techdevshimul/) if you're a tech enthusiast.
 
