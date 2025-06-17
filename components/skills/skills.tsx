@@ -49,8 +49,8 @@ export default function Skills() {
         <div className="bg-white h-[1px] w-full hidden sm:block"></div>
       </div>
       <div className="flex justify-center flex-wrap gap-x-11 gap-y-7 sm:gap-7 lg:gap-14 mb-5 mt-10 sm:mt-20">
-        {skillIcons.map((skill) => (
-          <SkillsCard skillIcon={skill} key={skill} />
+        {skillIcons.map((skill, index) => (
+          <SkillsCard key={index} skillIcon={skill} />
         ))}
       </div>
     </div>
