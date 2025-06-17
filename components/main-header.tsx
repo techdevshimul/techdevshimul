@@ -9,7 +9,7 @@ const pacifico = Pacifico({ subsets: ["latin"], weight: "400" });
 
 export default function MainHeader() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const body = document.querySelector("body");
