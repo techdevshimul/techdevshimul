@@ -133,7 +133,7 @@ export default function Projects() {
         >
           Projects :
         </h2>
-        <div className="bg-white h-[1px] w-full hidden sm:block"></div>
+        <div className="bg-white h-px w-full hidden sm:block"></div>
       </div>
 
       <div className="flex justify-center flex-wrap gap-7 mb-5 mt-10 sm:mt-20">

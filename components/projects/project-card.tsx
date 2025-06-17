@@ -31,7 +31,7 @@ export default function ProjectCard({ project }: any) {
       <Image
         src={project.images[0].image}
         alt="project image"
-        className="object-cover h-[550px] sm:size-full transition-all duration-500 group-hover:blur-sm"
+        className="object-cover h-[550px] sm:size-full transition-all duration-500 group-hover:blur-xs"
       />
 
       <div

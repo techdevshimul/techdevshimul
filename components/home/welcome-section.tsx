@@ -8,7 +8,7 @@ export default function WelcomeSection() {
       id="about"
       className="rounded-md mt-4 bg-white dark:bg-slate-800 text-black dark:text-white flex gap-9 justify-between items-center p-4 sm:p-9 lg:p-24 flex-col lg:flex-row"
     >
-      <div className="flex flex-col justify-center gap-3 max-w-xl order-1 lg:order-none">
+      <div className="flex flex-col justify-center gap-3 max-w-xl order-1 lg:order-0">
         <p className="text-base sm:text-xl text-gray-300">Hi, my name is</p>
         <h2 className="text-3xl sm:text-5xl font-bold">Shimul Hossain</h2>
 
@@ -21,7 +21,7 @@ export default function WelcomeSection() {
         </p>
 
         <Link
-          className="my-3 p-1 outline outline-5 rounded-md text-center w-52"
+          className="my-3 p-1 outline-solid outline-5 rounded-md text-center w-52"
           href="https://drive.google.com/file/d/16UMQwvsw1f4rAsPb6haZHoetDX222oIv/view?usp=sharing"
           target="_blank"
         >

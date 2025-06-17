@@ -35,7 +35,7 @@ export default function Education() {
         >
           Education :
         </h2>
-        <div className="bg-white h-[1px] w-full hidden sm:block"></div>
+        <div className="bg-white h-px w-full hidden sm:block"></div>
       </div>
 
       <div className="flex flex-col md:flex-row justify-between gap-7 mb-5 mt-10 sm:mt-20">

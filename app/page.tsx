@@ -7,7 +7,7 @@ import Skills from "@/components/skills/skills";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-screen-xl ">
+    <main className="mx-auto max-w-(--breakpoint-xl) ">
       <WelcomeSection />
       <Skills />
       <Projects />

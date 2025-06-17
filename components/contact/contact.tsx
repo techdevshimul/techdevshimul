@@ -41,7 +41,7 @@ export default function Contact() {
         >
           Contact :
         </h2>
-        <div className="bg-white h-[1px] w-full hidden sm:block"></div>
+        <div className="bg-white h-px w-full hidden sm:block"></div>
       </div>
 
       <div className="flex justify-center lg:justify-between xl:justify-center items-center mt-10 sm:mt-20 gap-10 lg:gap-4 xl:gap-24 flex-wrap">
