@@ -67,7 +67,7 @@ export default function Contact() {
               Full Name
             </label>
             <input
-              className="w-full text-xl rounded-lg py-1 px-3 mt-3 text-black"
+              className="w-full text-xl rounded-lg py-1 px-3 mt-3 border border-white"
               type="text"
               name="full-name"
               id="full-name"
@@ -78,7 +78,7 @@ export default function Contact() {
               Email
             </label>
             <input
-              className="w-full text-xl rounded-lg py-1 px-3 mt-3 text-black"
+              className="w-full text-xl rounded-lg py-1 px-3 mt-3 border border-white"
               type="email"
               name="email"
               id="email"
@@ -89,7 +89,7 @@ export default function Contact() {
               Message
             </label>
             <textarea
-              className="w-full text-xl rounded-lg py-1 px-3 mt-3 text-black resize-none"
+              className="w-full text-xl rounded-lg py-1 px-3 mt-3 border border-white resize-none"
               name="message"
               id="message"
               rows={3}
