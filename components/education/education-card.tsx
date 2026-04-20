@@ -1,6 +1,11 @@
+import { educationTypes } from "@/types/types";
 import Image from "next/image";
 
-export default function EducationCard({ education }: any) {
+export default function EducationCard({
+  education,
+}: {
+  education: educationTypes;
+}) {
   return (
     <div className="flex-1">
       <Image src={education.image} alt="education" className="w-32" />

@@ -1,6 +1,10 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-export default function SkillsCard({ skillIcon }: any) {
+export default function SkillsCard({
+  skillIcon,
+}: {
+  skillIcon: StaticImageData;
+}) {
   return (
     <Image
       src={skillIcon}

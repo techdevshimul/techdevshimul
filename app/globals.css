@@ -1,4 +1,21 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #101828;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
 
 @theme {
   --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
@@ -10,56 +27,22 @@
   --drop-shadow-custom-blue: 5px 5px 5px rgb(24, 140, 241);
 }
 
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
-  }
-}
-
-@utility text-balance {
-  text-wrap: balance;
-}
-
-@layer utilities {
-  html {
-    scroll-behavior: smooth;
-  }
-
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: white;
     --background-start-rgb: #2e2e2e;
     --background-end-rgb: #2e2e2e;
   }
+}
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --foreground-rgb: white;
-      --background-start-rgb: #2e2e2e;
-      --background-end-rgb: #2e2e2e;
-    }
-  }
-
-  body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(
-        to bottom,
-        transparent,
-        rgb(var(--background-end-rgb))
-      )
-      rgb(var(--background-start-rgb));
-  }
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 .image-profile {

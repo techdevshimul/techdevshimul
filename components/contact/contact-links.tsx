@@ -1,6 +1,7 @@
+import { contactTypes } from "@/types/types";
 import Link from "next/link";
 
-export default function ContactLinks({ contact }: any) {
+export default function ContactLinks({ contact }: { contact: contactTypes }) {
   return (
     <div>
       <Link href={contact.link} target="_blank">
