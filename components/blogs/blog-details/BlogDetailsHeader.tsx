@@ -18,10 +18,10 @@ export default function BlogDetailsHeader() {
             <Image
               className="w-full h-full object-cover"
               alt="A professional studio headshot of a software architect with short dark hair and glasses, wearing a minimalist black turtleneck, set against a dark moody architectural background with soft blue lighting."
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9xmhuOk4lg_d9RVPxEQK0YJEWA3SAAUyEzkeWbxL8RlrbelF-Jozf53HZqoINvxo9GdfkBGuxoDtSGJmesmCDy13DFCSxYU7YEsKk-ZCopPUoNkWTmGVGoHbcRAevyHjJEp8jtI8I-qD-xOcQdLzxiOSZFqWLF278OBicbKr3-WMDvSLUgMTYWubGxOW3JbDZpasSHEzULcHrsT3oSwlsMOyttcDljD-13zY9vPgy5oUly891Vym_QeDGMnxSPDn_-GgGXTDjgt3q"
-              fill
-              sizes="(min-width: 1024px) 40px, 100vw"
+              src="/assets/images/photo.jpg"
               priority
+              width={40}
+              height={40}
             />
           </div>
           <span className="">Shimul Hossain</span>

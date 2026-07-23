@@ -1,12 +1,12 @@
 export default function CaseStudyTechnicalSolution() {
   return (
-    <section className="mb-stack-lg transition-all duration-1000 opacity-100 translate-y-0 opacity-0 translate-y-10 py-stack-lg">
+    <section className="mb-stack-lg transition-all duration-1000 opacity-100 translate-y-0 opacity-0 translate-y-10 py-stack-sm">
       <div className="flex items-center gap-4 mb-12">
-        <div className="h-[1px] grow bg-glass-border"></div>
+        <div className="h-px grow bg-glass-border"></div>
         <h2 className="font-headline-md text-headline-md">
           Technical Solution
         </h2>
-        <div className="h-[1px] grow bg-glass-border"></div>
+        <div className="h-px grow bg-glass-border"></div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-stack-md items-start">
         <div className="space-y-stack-sm">

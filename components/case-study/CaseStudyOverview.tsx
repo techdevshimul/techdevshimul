@@ -1,6 +1,6 @@
 export default function CaseStudyOverview() {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter mb-stack-lg transition-all duration-1000 opacity-100 translate-y-0 opacity-0 translate-y-10 py-stack-lg">
+    <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter mb-stack-lg transition-all duration-1000 opacity-100 translate-y-0 opacity-0 translate-y-10 py-stack-sm">
       <div className="lg:col-span-8">
         <div className="glass-panel p-8 rounded-xl h-full border-glass-border">
           <h2 className="font-headline-sm text-headline-sm mb-6 flex items-center gap-3">

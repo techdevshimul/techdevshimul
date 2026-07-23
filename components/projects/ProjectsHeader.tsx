@@ -7,7 +7,7 @@ const filters = [
 
 export default function ProjectsHeader() {
   return (
-    <section className="relative z-10 px-6 md:px-margin-desktop max-w-container-max mx-auto py-stack-lg text-center md:text-left">
+    <section className="relative z-10 px-6 md:px-margin-desktop max-w-container-max mx-auto py-stack-sm text-center md:text-left">
       <div className="inline-flex items-center gap-2 px-3 py-1 bg-surface-container rounded-full border border-glass-border mb-4">
         <span className="w-2 h-2 rounded-full bg-primary circuit-node"></span>
         <span className="font-label-sm text-label-sm uppercase tracking-widest text-primary">

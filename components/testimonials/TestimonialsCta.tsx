@@ -1,6 +1,6 @@
 export default function TestimonialsCta() {
   return (
-    <section className="mt-stack-lg max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center py-stack-lg">
+    <section className="mt-stack-lg max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center py-stack-sm">
       <div className="glass-card p-12 rounded-3xl relative overflow-hidden transition-all duration-700 ease-out opacity-100 translate-y-8">
         <div className="absolute inset-0 bg-linear-to-tr from-primary/10 to-transparent pointer-events-none"></div>
         <h2 className="font-headline-md text-headline-md mb-6 relative z-10 text-on-background">

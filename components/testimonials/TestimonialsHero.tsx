@@ -1,6 +1,6 @@
 export default function TestimoinialsHero() {
   return (
-    <header className="mb-stack-lg text-center md:text-left max-w-3xl">
+    <header className="mb-stack-sm text-center md:text-left max-w-3xl">
       <h1 className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-6 leading-tight">
         Engineering <span className="text-primary">Impact</span>,<br />
         One Commit at a Time.

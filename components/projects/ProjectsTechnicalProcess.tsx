@@ -1,6 +1,6 @@
 export default function ProjectsTechnicalProcess() {
   return (
-    <section className="relative z-10 px-6 md:px-margin-desktop max-w-container-max mx-auto py-stack-lg overflow-hidden">
+    <section className="relative z-10 px-6 md:px-margin-desktop max-w-container-max mx-auto py-stack-sm overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-stack-lg items-center">
         <div>
           <h2 className="font-headline-md text-headline-md mb-6">

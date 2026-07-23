@@ -6,8 +6,7 @@ const projects = [
     title: "Visionary E-Commerce Engine",
     description:
       "A high-performance online marketplace featuring real-time inventory management and a custom headless CMS architecture.",
-    imageUrl:
-      "https://lh3.googleusercontent.com/aida/AP1WRLtJnNbDFSsVGsDYKigvIs7OlLmwqWld2imQX4kFs9Y5XHBerFwis3SigAtCK39xZKX66AW4_ASo0IrqmSpdcAdZIQrR7YtU2Hv7X0241xUksQosQuLZ7IgvjCwUMNRh1bZpaXN40ssGa_Uo9TXn4K4gd_5JiJ0rNSW5ZRBTQB_dXexpxuniIVx5wCrG44SEPG9hOdRWfO7sA6BYrz3Hodq3TW3RmwHPsqlQzMA-hTG6EMwUOexLfI1IbjR-",
+    imageUrl: "/assets/images/project-images/Ecom.webp",
     technologies: ["React", "Node.js"],
     caseStudyLink: "#",
     liveDeploymentLink: "#",
@@ -17,8 +16,7 @@ const projects = [
     title: "Precision Food Delivery",
     description:
       "Optimized logistics app with integrated payment systems and real-time tracking.",
-    imageUrl:
-      "https://lh3.googleusercontent.com/aida/AP1WRLv3t2wmcOuT_KYtSndH5E35RtD_cgw_FAmhE-T4vdOI_5HEnKrVQ63Cylj2V5zfLbzcAoeVWrndmp5YIumBAgaZVp_0_VdYHciyWoCCAKgTKceiGh1HSQF4B8PKEzgBaGBm_xwQOB1LAHDcWPYb8QbVzKqX7qitqNnvb0rQQtUe1lKaX_WLZJ94G5DWtt6thamtaOjpn9w8uEr82lDKezTvqPCmFbu9VuRMKx7rHt9jbDhn-WlmvykciDQ",
+    imageUrl: "/assets/images/project-images/Burger.webp",
     technologies: ["Tailwind"],
     caseStudyLink: "#",
     liveDeploymentLink: "#",
@@ -28,8 +26,7 @@ const projects = [
     title: "Hospitality Cloud Portal",
     description:
       "Scalable hotel management dashboard with complex scheduling algorithms.",
-    imageUrl:
-      "https://lh3.googleusercontent.com/aida/AP1WRLuJL35za6JJplQkm6Kog8lP4SkXJ6wjKwy8GtjcQ-JsKRHtbLo4Yb8R0jElTxxY0FKouuYNRi0stlVxd8o5mJ-yfJDbZsRLz4-3GeaXUM3pplSY8XGkj-Y0RSmdEhP7KH8J-KV5EFIMbiWLgTWmPyfitg0P1ZIMezdlnJ7Bagat3y6gvEksvsLeBlMTOdJvYQIZ0oBAsHXOIlzOqpsof8-c6GeJlNj56WFO-HvgqJ-SX9AKRNXfhYr0dAk",
+    imageUrl: "/assets/images/project-images/Hotel.webp",
     technologies: ["Next.js"],
     caseStudyLink: "#",
     liveDeploymentLink: "#",

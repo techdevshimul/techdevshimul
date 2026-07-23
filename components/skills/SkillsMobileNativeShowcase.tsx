@@ -1,6 +1,6 @@
 export default function SkillsMobileNativeShowcase() {
   return (
-    <section className="mb-stack-lg py-stack-lg">
+    <section className="mb-stack-lg py-stack-sm">
       <div className="text-center mb-12">
         <h2 className="font-headline-md text-headline-md mb-4">
           Mobile Native Showcase
@@ -34,7 +34,7 @@ export default function SkillsMobileNativeShowcase() {
           </div>
         </div>
         {/* <!-- Android Mockup --> */}
-        <div className="relative group cursor-pointer md:mt-24">
+        <div className="relative group cursor-pointer">
           <div className="absolute -inset-4 bg-secondary/20 blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
           <div className="relative w-[280px] h-[560px] bg-charcoal rounded-[24px] border-[8px] border-surface-container-highest shadow-2xl overflow-hidden">
             <div className="absolute top-4 left-1/2 -translate-x-1/2 w-3 h-3 bg-surface-container-highest rounded-full z-20"></div>

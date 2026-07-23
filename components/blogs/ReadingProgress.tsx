@@ -21,7 +21,8 @@ export default function ReadingProgress() {
     window.addEventListener("scroll", handleScroll);
 
     // Smooth Scroll for Sidebar
-    const anchors = document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]');
+    const anchors =
+      document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]');
     const smoothScrollHandler = function (this: HTMLAnchorElement, e: Event) {
       e.preventDefault();
       const target = document.querySelector(this.getAttribute("href") || "");

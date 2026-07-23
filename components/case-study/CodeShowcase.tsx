@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 export default function CodeShowcase() {
   return (
-    <section className="mb-stack-lg py-stack-lg transition-all duration-1000 opacity-100 translate-y-0">
+    <section className="mb-stack-lg py-stack-sm transition-all duration-1000 opacity-100 translate-y-0">
       <div className="glass-panel rounded-xl overflow-hidden shadow-2xl border-glass-border bg-surface-container-lowest">
         <div className="bg-surface-container-highest px-6 py-3 flex items-center justify-between border-b border-glass-border">
           <div className="flex gap-2">

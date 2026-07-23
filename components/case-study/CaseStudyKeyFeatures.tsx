@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CaseStudyKeyFeatures() {
   return (
-    <section className="mb-stack-lg transition-all duration-1000 opacity-100 translate-y-10 py-stack-lg">
+    <section className="mb-stack-lg transition-all duration-1000 opacity-100 translate-y-10 py-stack-sm">
       <h2 className="font-headline-md text-headline-md mb-8">
         Key Engineering Features
       </h2>

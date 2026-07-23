@@ -1,6 +1,6 @@
 export default function SkillsCta() {
   return (
-    <section className="glass-card-skills  p-12 rounded-4xl text-center relative overflow-hidden py-stack-lg">
+    <section className="glass-card-skills  p-12 rounded-4xl text-center relative overflow-hidden py-stack-sm">
       <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -mr-32 -mt-32"></div>
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-secondary/10 rounded-full blur-3xl -ml-32 -mb-32"></div>
       <h2 className="font-headline-md text-headline-md mb-6 relative z-10">

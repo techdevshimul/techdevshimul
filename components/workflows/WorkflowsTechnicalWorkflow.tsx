@@ -2,8 +2,8 @@ export default function WorkflowsTechnicalWorkflow() {
   return (
     <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-stack-lg">
       <div className="grid md:grid-cols-[1fr_auto_1fr] gap-x-12 relative">
-        {/* <!-- Circuit Line Background (Desktop) --> */}
-        <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px circuit-line -translate-x-1/2 z-0"></div>
+        {/* <!-- Timeline Line Background (Desktop) --> */}
+        <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-px timeline-line -translate-x-1/2 z-0"></div>
         {/* <!-- Step 1: Discovery --> */}
         <div className="md:text-right mb-12 md:mb-24 relative z-10">
           <div className="inline-block px-4 py-1 rounded-full border border-primary/30 bg-primary/5 text-primary text-label-sm font-label-sm mb-4">

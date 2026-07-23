@@ -1,6 +1,6 @@
 export default function SkillsServiceOfferings() {
   return (
-    <section className="mb-stack-lg py-stack-lg">
+    <section className="mb-stack-lg py-stack-sm">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter">
         {/* <!-- Web Architecture --> */}
         <div className="md:col-span-8 glass-card-skills  p-stack-md rounded-xl hover:shadow-[0_0_30px_rgba(37,99,235,0.15)] transition-all duration-500 group">

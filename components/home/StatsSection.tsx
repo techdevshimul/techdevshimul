@@ -7,7 +7,7 @@ export default function StatsSection() {
             <h3 className="font-headline-lg text-headline-md text-primary font-mono tracking-tighter">
               03+
             </h3>
-            <div className="h-[1px] grow bg-linear-to-r from-primary/50 to-transparent"></div>
+            <div className="h-px grow bg-linear-to-r from-primary/50 to-transparent"></div>
           </div>
           <p className="font-label-sm text-[10px] text-outline mt-2 uppercase">
             Years Experience
@@ -18,7 +18,7 @@ export default function StatsSection() {
             <h3 className="font-headline-lg text-headline-md text-primary font-mono tracking-tighter">
               50+
             </h3>
-            <div className="h-[1px] grow bg-linear-to-r from-primary/50 to-transparent"></div>
+            <div className="h-px grow bg-linear-to-r from-primary/50 to-transparent"></div>
           </div>
           <p className="font-label-sm text-[10px] text-outline mt-2 uppercase">
             Projects Completed
@@ -29,7 +29,7 @@ export default function StatsSection() {
             <h3 className="font-headline-lg text-headline-md text-primary font-mono tracking-tighter">
               20+
             </h3>
-            <div className="h-[1px] grow bg-linear-to-r from-primary/50 to-transparent"></div>
+            <div className="h-px grow bg-linear-to-r from-primary/50 to-transparent"></div>
           </div>
           <p className="font-label-sm text-[10px] text-outline mt-2 uppercase">
             Global Clients
@@ -40,7 +40,7 @@ export default function StatsSection() {
             <h3 className="font-headline-lg text-headline-md text-primary font-mono tracking-tighter">
               99%
             </h3>
-            <div className="h-[1px] grow bg-linear-to-r from-primary/50 to-transparent"></div>
+            <div className="h-px grow bg-linear-to-r from-primary/50 to-transparent"></div>
           </div>
           <p className="font-label-sm text-[10px] text-outline mt-2 uppercase">
             Success Rate

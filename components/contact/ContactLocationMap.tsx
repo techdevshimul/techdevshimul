@@ -1,7 +1,7 @@
 export default function ContactLocationMap() {
   return (
     <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-stack-lg">
-      <div className="w-full h-[400px] rounded-2xl glass-panel relative overflow-hidden flex items-center justify-center">
+      <div className="w-full h-100 rounded-2xl glass-panel relative overflow-hidden flex items-center justify-center">
         <div className="absolute inset-0 opacity-20 grayscale hover:grayscale-0 transition-all duration-700">
           <div
             className="w-full h-full bg-cover bg-center"

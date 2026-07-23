@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -21,10 +22,13 @@ const Header: React.FC = () => {
   return (
     <header className="fixed top-0 w-full z-50 bg-charcoal/80 backdrop-blur-md border-b border-glass-border shadow-sm shadow-glow-electric/5">
       <nav className="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
-        <div className="font-headline-sm text-headline-sm font-bold text-on-background tracking-tighter flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-primary shadow-[0_0_10px_var(--color-primary)]"></span>
-          SH
-        </div>
+        <Image
+          alt="Shimul Hossain"
+          src="/assets/images/logo.png"
+          width={40}
+          height={40}
+          priority
+        />
         <ul className="hidden md:flex gap-8 items-center">
           {LinksOptions.map((link) => (
             <li className="" key={link.name}>

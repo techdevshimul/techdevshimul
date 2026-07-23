@@ -29,7 +29,7 @@ export default function ContactSection() {
                   Email_Channel
                 </p>
                 <p className="font-body-md text-body-md text-white">
-                  contact@shimulhossain.com
+                  info@techdevshimul.com
                 </p>
               </div>
             </div>

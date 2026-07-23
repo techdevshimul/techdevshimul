@@ -1,6 +1,6 @@
 export default function CaseStudyBottomCta() {
   return (
-    <section className="flex flex-col items-center text-center gap-6 transition-all duration-1000 opacity-0 translate-y-10 py-stack-lg">
+    <section className="flex flex-col items-center text-center gap-6 transition-all duration-1000 opacity-0 translate-y-10 py-stack-sm">
       <div className="max-w-2xl">
         <h3 className="font-headline-sm text-headline-sm mb-4">
           Ready to scale your infrastructure?

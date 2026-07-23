@@ -4,8 +4,7 @@ const projectItems = [
   {
     id: 1,
     title: "E-commerce Project",
-    image:
-      "https://lh3.googleusercontent.com/aida/AP1WRLtJnNbDFSsVGsDYKigvIs7OlLmwqWld2imQX4kFs9Y5XHBerFwis3SigAtCK39xZKX66AW4_ASo0IrqmSpdcAdZIQrR7YtU2Hv7X0241xUksQosQuLZ7IgvjCwUMNRh1bZpaXN40ssGa_Uo9TXn4K4gd_5JiJ0rNSW5ZRBTQB_dXexpxuniIVx5wCrG44SEPG9hOdRWfO7sA6BYrz3Hodq3TW3RmwHPsqlQzMA-hTG6EMwUOexLfI1IbjR-",
+    image: "/assets/images/project-images/Ecom.webp",
     description:
       "A high-performance digital storefront featuring real-time inventory management, stripe integration, and an advanced administrative dashboard for business operations.",
     icon: "bolt",
@@ -18,8 +17,7 @@ const projectItems = [
   {
     id: 2,
     title: "Burger Builder",
-    image:
-      "https://lh3.googleusercontent.com/aida/AP1WRLtJnNbDFSsVGsDYKigvIs7OlLmwqWld2imQX4kFs9Y5XHBerFwis3SigAtCK39xZKX66AW4_ASo0IrqmSpdcAdZIQrR7YtU2Hv7X0241xUksQosQuLZ7IgvjCwUMNRh1bZpaXN40ssGa_Uo9TXn4K4gd_5JiJ0rNSW5ZRBTQB_dXexpxuniIVx5wCrG44SEPG9hOdRWfO7sA6BYrz3Hodq3TW3RmwHPsqlQzMA-hTG6EMwUOexLfI1IbjR-",
+    image: "/assets/images/project-images/Burger.webp",
     description:
       "Interactive custom builder application allowing users to dynamically create orders. Features complex state management and real-time backend synchronization.",
     icon: "person",
@@ -32,8 +30,7 @@ const projectItems = [
   {
     id: 3,
     title: "Hotel Booking",
-    image:
-      "https://lh3.googleusercontent.com/aida/AP1WRLtJnNbDFSsVGsDYKigvIs7OlLmwqWld2imQX4kFs9Y5XHBerFwis3SigAtCK39xZKX66AW4_ASo0IrqmSpdcAdZIQrR7YtU2Hv7X0241xUksQosQuLZ7IgvjCwUMNRh1bZpaXN40ssGa_Uo9TXn4K4gd_5JiJ0rNSW5ZRBTQB_dXexpxuniIVx5wCrG44SEPG9hOdRWfO7sA6BYrz3Hodq3TW3RmwHPsqlQzMA-hTG6EMwUOexLfI1IbjR-",
+    image: "/assets/images/project-images/Hotel.webp",
     description:
       "A comprehensive reservation system with room filtering, booking history, and secure user authentication using modern web security standards.",
     icon: "security",
@@ -46,8 +43,7 @@ const projectItems = [
   {
     id: 4,
     title: "Photo Gallery",
-    image:
-      "https://lh3.googleusercontent.com/aida/AP1WRLtJnNbDFSsVGsDYKigvIs7OlLmwqWld2imQX4kFs9Y5XHBerFwis3SigAtCK39xZKX66AW4_ASo0IrqmSpdcAdZIQrR7YtU2Hv7X0241xUksQosQuLZ7IgvjCwUMNRh1bZpaXN40ssGa_Uo9TXn4K4gd_5JiJ0rNSW5ZRBTQB_dXexpxuniIVx5wCrG44SEPG9hOdRWfO7sA6BYrz3Hodq3TW3RmwHPsqlQzMA-hTG6EMwUOexLfI1IbjR-",
+    image: "/assets/images/project-images/Photo.webp",
     description:
       "Sleek, responsive media showcase with masonry layout, lightbox viewing, and cloud-hosted storage for high-resolution photography.",
     icon: "person",

@@ -1,6 +1,6 @@
 export default function CaseStudyResultSection() {
   return (
-    <section className="mb-stack-lg transition-all duration-1000 opacity-100 translate-y-10 py-stack-lg">
+    <section className="mb-stack-lg transition-all duration-1000 opacity-100 translate-y-10 py-stack-sm">
       <div className="glass-panel p-10 rounded-xl relative overflow-hidden bg-surface-container-low border-glass-border">
         <div className="absolute top-0 right-0 w-64 h-64 bg-secondary/10 blur-[100px] rounded-full"></div>
         <h2 className="font-headline-md text-headline-md mb-10 text-center">

@@ -1,29 +1,4 @@
-const socialLinks = [
-  {
-    id: 1,
-    name: "LinkedIn",
-    href: "#",
-    icon: "link",
-  },
-  {
-    id: 2,
-    name: "GitHub",
-    href: "#",
-    icon: "terminal",
-  },
-  {
-    id: 3,
-    name: "WhatsApp",
-    href: "#",
-    icon: "chat",
-  },
-  {
-    id: 4,
-    name: "Facebook",
-    href: "#",
-    icon: "public",
-  },
-];
+import { socialLinksArr } from "@/utils/social-contacts";
 
 export default function ContactInfoAndSocial() {
   return (
@@ -49,7 +24,7 @@ export default function ContactInfoAndSocial() {
                 Email Me
               </p>
               <p className="font-body-md text-body-md text-on-background group-hover:text-primary transition-colors">
-                contact@shimulhossain.com
+                info@techdevshimul.com
               </p>
             </div>
           </a>
@@ -74,16 +49,16 @@ export default function ContactInfoAndSocial() {
           Social Ecosystem
         </p>
         <div className="grid grid-cols-2 gap-4">
-          {socialLinks.map((link) => (
+          {socialLinksArr.map((link) => (
             <a
               key={link.id}
               className="flex items-center gap-3 p-4 rounded-lg bg-surface-container-low border border-glass-border hover:border-primary/50 transition-all group"
-              href={link.href}
+              href={link.url}
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="material-symbols-outlined text-primary">
-                {link.icon}
+                <link.Icon />
               </span>
               <span className="font-label-md text-label-md group-hover:text-primary transition-colors">
                 {link.name}

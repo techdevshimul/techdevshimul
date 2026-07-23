@@ -1,41 +1,4 @@
-const certifications = [
-  {
-    id: 1,
-    title: "Web Development Specialization",
-    provider: "Coursera",
-    year: 2023,
-    description:
-      "Mastery in full-stack development, focusing on React, Node.js, and architectural patterns.",
-    icon: "verified",
-  },
-  {
-    id: 2,
-    title: "Algorithm & Problem Solving",
-    provider: "HackerRank",
-    year: 2022,
-    description:
-      "Gold badge achiever for consistent performance in competitive programming and data structures.",
-    icon: "military_tech",
-  },
-  {
-    id: 3,
-    title: "Database Management",
-    provider: "IBM Skills",
-    year: 2023,
-    description:
-      "Proficiency in SQL, NoSQL, and database optimization techniques for large-scale applications.",
-    icon: "workspace_premium",
-  },
-  {
-    id: 4,
-    title: "Top Performer - District Science Fair",
-    provider: "Radhanagar Mojumdar Academy",
-    year: 2017,
-    description:
-      "Represented Radhanagar Mojumdar Academy at the district science fair, securing the first-place prize for an innovative project demonstrating automated irrigation systems using local components.",
-    icon: "emoji_events",
-  },
-];
+import { certifications } from "@/utils/certifications";
 
 export default function EducationCertificationsAndAchievements() {
   return (
@@ -52,13 +15,15 @@ export default function EducationCertificationsAndAchievements() {
         {certifications.slice(0, 3).map((cert) => (
           <div
             key={cert.id}
-            className="glass-panel p-6 rounded-xl hover:shadow-lg hover:shadow-glow-electric/10 transition-all duration-300 group duration-700 opacity-100 translate-y-0"
+            className="glass-panel p-6 rounded-xl hover:shadow-lg hover:shadow-glow-electric/10 transition-all duration-300 group opacity-100 translate-y-0"
           >
             <span className="material-symbols-outlined text-secondary text-4xl mb-4 group-hover:scale-110 transition-transform">
               {cert.icon}
             </span>
             <h4 className="font-headline-sm text-[20px] mb-2">{cert.title}</h4>
-            <p className="text-outline text-sm mb-4">Coursera • 2023</p>
+            <p className="text-outline text-sm mb-4">
+              {cert.provider} • {cert.year}
+            </p>
             <p className="text-on-surface-variant font-body-md">
               {cert.description}
             </p>

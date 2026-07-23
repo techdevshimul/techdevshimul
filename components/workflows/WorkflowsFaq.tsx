@@ -2,7 +2,7 @@ import Accordion from "./Accordion";
 
 export default function WorkflowsFaq() {
   return (
-    <section className="bg-surface-container-low py-stack-lg">
+    <section className="bg-surface-container-low py-stack-sm">
       <div className="max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="text-center mb-12">
           <h2 className="font-headline-md text-headline-md mb-4">

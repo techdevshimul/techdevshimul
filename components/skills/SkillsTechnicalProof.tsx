@@ -1,11 +1,13 @@
+import { techStacksArr } from "@/utils/tech-stacks";
+
 export default function SkillsTechnicalProof() {
   return (
-    <section className="mb-stack-lg py-stack-lg">
+    <section className="mb-stack-lg">
       <div className="flex items-center gap-4 mb-8">
         <h2 className="font-headline-md text-headline-md">
           Technical Velocity
         </h2>
-        <div className="flex-1 h-[1px] bg-glass-border"></div>
+        <div className="flex-1 h-px bg-glass-border"></div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
         {/* <!-- GitHub Heatmap Mockup --> */}
@@ -770,72 +772,17 @@ export default function SkillsTechnicalProof() {
               The Current Stack
             </h3>
             <div className="grid grid-cols-3 gap-y-8 gap-x-4">
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container border border-glass-border">
-                  <span
-                    className="material-symbols-outlined text-secondary"
-                    style={{ fontVariationSettings: '"FILL" 1' }}
-                  >
-                    code
-                  </span>
+              {techStacksArr.map((stack) => (
+                <div
+                  key={stack.id}
+                  className="flex flex-col items-center gap-2"
+                >
+                  <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container border border-glass-border">
+                    <stack.Icon className="w-6 h-6 text-primary" />
+                  </div>
+                  <span className="font-label-sm">{stack.name}</span>
                 </div>
-                <span className="font-label-sm">React</span>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container border border-glass-border">
-                  <span
-                    className="material-symbols-outlined text-primary"
-                    style={{ fontVariationSettings: '"FILL" 1' }}
-                  >
-                    terminal
-                  </span>
-                </div>
-                <span className="font-label-sm">Node.js</span>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container border border-glass-border">
-                  <span
-                    className="material-symbols-outlined text-tertiary"
-                    style={{ fontVariationSettings: '"FILL" 1' }}
-                  >
-                    storage
-                  </span>
-                </div>
-                <span className="font-label-sm">MongoDB</span>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container border border-glass-border">
-                  <span
-                    className="material-symbols-outlined text-secondary"
-                    style={{ fontVariationSettings: '"FILL" 1' }}
-                  >
-                    smartphone
-                  </span>
-                </div>
-                <span className="font-label-sm">RN Native</span>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container border border-glass-border">
-                  <span
-                    className="material-symbols-outlined text-primary"
-                    style={{ fontVariationSettings: '"FILL" 1' }}
-                  >
-                    appscript
-                  </span>
-                </div>
-                <span className="font-label-sm">TypeScript</span>
-              </div>
-              <div className="flex flex-col items-center gap-2">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-surface-container border border-glass-border">
-                  <span
-                    className="material-symbols-outlined text-on-surface"
-                    style={{ fontVariationSettings: '"FILL" 1' }}
-                  >
-                    cloud_queue
-                  </span>
-                </div>
-                <span className="font-label-sm">Docker</span>
-              </div>
+              ))}
             </div>
           </div>
           <div className="mt-8 p-4 rounded-lg bg-primary/5 border border-primary/10">
